@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>b05702071-洪千涵</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/index.css">
+    <style>
+        body {
+            background-image: url('./image/11.png');
+            background-position: center top;
+            margin-right: 50px;
+            background-attachment: absolute;
+        }
+        
+        #a {
+            border: 10px solid transparent;
+            padding: 15px;
+            border-image: url(./image/border.png) 30 stretch;
+        }
+    </style>
+</head>
+
+<body>
+
+
+
+    <div class="container">
+        <div class="jumbotron jumbotron">
+            <h1 class="display-3"><strong>Random Number</strong></h1>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="setting-area">
+            <div class="NUMBER-setting type-setting-wrapper" style="display: block;" id="textarea">
+                從 <input type="number" id="min" class="input-large" value="1"> 到 <input type="number" id="max" class="input-large" value="50"> 抽出 <input type="number" id="n" class="input-large" value="5"> 個數字
+            </div>
+            <br>
+            <button type="button" class="btn btn-primary" id="random">Generate</button>
+            <br>
+            <br>
+            <br>
+            <h2><strong><label for="item" class="col-3 col-form-label" id='a'>您所抽出的號碼</label></strong></h2>
+
+            <div class="row" id="data">
+                <div calss="col-2 4">
+                    <div class="item">1</div>
+                </div>
+                <div calss="col-2 4">
+                    <div class="item">2</div>
+                </div>
+                <div calss="col-2 4">
+                    <div class="item">3</div>
+                </div>
+                <div calss="col-2 4">
+                    <div class="item">4</div>
+                </div>
+                <div calss="col-2 4">
+                    <div class="item">5</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+    <img src="./image/3.png" alt="" id="3">
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
